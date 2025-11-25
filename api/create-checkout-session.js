@@ -15,9 +15,7 @@ export default async function handler(req, res) {
         {
           price_data: {
             currency: "usd",
-            product_data: {
-              name: "Kingdom Prize Ticket",
-            },
+            product_data: { name: "Kingdom Prize Ticket" },
             unit_amount: 1000, // $10 per ticket
           },
           quantity: 1,
